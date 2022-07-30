@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/diego-marrs/static/css/main.073c9b0a.css",
-    "main.js": "/diego-marrs/static/js/main.a906cbeb.js",
+    "main.css": "/diego-marrs/static/css/main.3914e789.css",
+    "main.js": "/diego-marrs/static/js/main.059ec8a7.js",
     "static/js/787.5f5a6142.chunk.js": "/diego-marrs/static/js/787.5f5a6142.chunk.js",
-    "static/media/logo.svg": "/diego-marrs/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/diego-marrs/index.html",
-    "main.073c9b0a.css.map": "/diego-marrs/static/css/main.073c9b0a.css.map",
-    "main.a906cbeb.js.map": "/diego-marrs/static/js/main.a906cbeb.js.map",
+    "main.3914e789.css.map": "/diego-marrs/static/css/main.3914e789.css.map",
+    "main.059ec8a7.js.map": "/diego-marrs/static/js/main.059ec8a7.js.map",
     "787.5f5a6142.chunk.js.map": "/diego-marrs/static/js/787.5f5a6142.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a906cbeb.js"
+    "static/css/main.3914e789.css",
+    "static/js/main.059ec8a7.js"
   ]
 }
