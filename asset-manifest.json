@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/diego-marrs/static/css/main.073c9b0a.css",
+    "main.js": "/diego-marrs/static/js/main.a906cbeb.js",
+    "static/js/787.5f5a6142.chunk.js": "/diego-marrs/static/js/787.5f5a6142.chunk.js",
+    "static/media/logo.svg": "/diego-marrs/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/diego-marrs/index.html",
+    "main.073c9b0a.css.map": "/diego-marrs/static/css/main.073c9b0a.css.map",
+    "main.a906cbeb.js.map": "/diego-marrs/static/js/main.a906cbeb.js.map",
+    "787.5f5a6142.chunk.js.map": "/diego-marrs/static/js/787.5f5a6142.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.a906cbeb.js"
+  ]
+}
