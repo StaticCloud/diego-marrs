@@ -14,16 +14,16 @@ const icons = [js, react, nodejs, mongodb, html, css, github]
 
 function Landing() {
     return (
-        <section className="dark:bg-gray-800">
-            <div className="dark:text-white flex flex-row md:flex-row-reverse flex-wrap mx-auto justify-center">
-                <div className="max-w-md px-4">
+        <section className="dark:text-white dark:bg-gray-800 py-20">
+            <div className="flex flex-row md:flex-row-reverse flex-wrap mx-auto justify-center">
+                <div className="max-w-sm px-4">
                     <img className="py-3 rounded-full" src={profilePic}/>
                 </div>
                 <div className="max-w-xl px-4 flex items-center">
                     <div>
                         <p className="text-2xl py-3">Looking for full stack web developer talent?</p>
-                        <h1 className="text-6xl font-semibold py-3">Hello, my name is Diego Marrs</h1>
-                        <p className="text-2xl py-3">I'm a full stack web developer who is proficient in various web developer technologies including:</p>
+                        <h1 className="text-6xl font-semibold py-3">Hello, I'm Diego Marrs</h1>
+                        <p className="text-2xl py-3">I'm a full stack web developer who is proficient in various technologies.</p>
                         <div className="flex flex-row flex-wrap">
                             {icons.map((icon, i) => 
                                 <img className="p-2" key={i} width="65px" src={icon}></img>
