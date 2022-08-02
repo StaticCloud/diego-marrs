@@ -12,6 +12,7 @@ function Home() {
         <div className={`${mode}`}>
             <Nav/>
             <Landing/>
+            <div className='h-screen'></div>
             <Projects/>
             {/* <button onClick={() => mode == 'dark' ? setMode('') : setMode('dark')}>
                 Toggle Theme

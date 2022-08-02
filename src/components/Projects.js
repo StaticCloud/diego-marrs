@@ -2,12 +2,9 @@ import React from 'react';
 
 function Projects() {
     return (
-        <section className="dark:bg-gray-800 dark:text-white py-20">
-            <div>
-                <h1 className="text-6xl font-semibold py-3 max-w-xl">Projects</h1>
-                <div className="grid grid-cols-3 gap-4 max-w-xl">
-
-                </div>
+        <section className="h-screen w-full dark:bg-gray-900 dark:text-white py-20 z-40 relative">
+            <div className="flex items-center">
+                <h1 className="text-6xl font-semibold inline-block p-4 mx-auto">Projects</h1>
             </div>
         </section>
     );
