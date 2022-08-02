@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import Nav from '../components/Navbar'
+import Landing from '../components/Landing'
 
 function Home() {
 
@@ -9,9 +10,10 @@ function Home() {
     return (
         <div className={mode}>
             <Nav/>
-            <button onClick={() => mode == 'dark' ? setMode('') : setMode('dark')}>
+            <Landing/>
+            {/* <button onClick={() => mode == 'dark' ? setMode('') : setMode('dark')}>
                 Toggle Theme
-            </button>
+            </button> */}
         </div>
     );
 }

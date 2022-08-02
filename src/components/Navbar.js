@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <nav className="flex p-4 dark:bg-gray-700 dark:text-white transition-all duration-700">
+        <nav className="flex flex-wrap p-4 dark:bg-gray-800 dark:text-white transition-all duration-700 sticky top-0">
             <h1 className="flex-1 font-semibold text-6xl px-5">Diego Marrs</h1>
             <div className="flex-1 flex items-center justify-end px-5">
                 <ul className="flex">
