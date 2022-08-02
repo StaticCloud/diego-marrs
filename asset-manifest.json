@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/diego-marrs/static/css/main.3914e789.css",
-    "main.js": "/diego-marrs/static/js/main.059ec8a7.js",
+    "main.css": "/diego-marrs/static/css/main.23b68841.css",
+    "main.js": "/diego-marrs/static/js/main.0870602d.js",
     "static/js/787.5f5a6142.chunk.js": "/diego-marrs/static/js/787.5f5a6142.chunk.js",
+    "static/media/pfp.jpg": "/diego-marrs/static/media/pfp.39016b751292f074f2a5.jpg",
+    "static/media/ResumePrev.png": "/diego-marrs/static/media/ResumePrev.954838a6ee2bf45f9361.png",
+    "static/media/react.png": "/diego-marrs/static/media/react.222b46ec12ee705ead71.png",
+    "static/media/node-js.png": "/diego-marrs/static/media/node-js.0f5efdd2a6bfbe1fd818.png",
+    "static/media/mongodb.png": "/diego-marrs/static/media/mongodb.cd6a10658d1549570fd0.png",
+    "static/media/css3.png": "/diego-marrs/static/media/css3.42387c179f8700160cb1.png",
+    "static/media/html5.png": "/diego-marrs/static/media/html5.4e6edfe05f07c383e94f.png",
+    "static/media/github.png": "/diego-marrs/static/media/github.f188e75061ea931a2cfb.png",
     "index.html": "/diego-marrs/index.html",
-    "main.3914e789.css.map": "/diego-marrs/static/css/main.3914e789.css.map",
-    "main.059ec8a7.js.map": "/diego-marrs/static/js/main.059ec8a7.js.map",
+    "main.23b68841.css.map": "/diego-marrs/static/css/main.23b68841.css.map",
+    "main.0870602d.js.map": "/diego-marrs/static/js/main.0870602d.js.map",
     "787.5f5a6142.chunk.js.map": "/diego-marrs/static/js/787.5f5a6142.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3914e789.css",
-    "static/js/main.059ec8a7.js"
+    "static/css/main.23b68841.css",
+    "static/js/main.0870602d.js"
   ]
 }
