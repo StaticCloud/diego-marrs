@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSpring, animated } from 'react-spring';
 
 import html from '../icons/html5.png'
 import css from '../icons/css3.png'
@@ -13,9 +14,24 @@ import profilePic from '../icons/pfp.jpg'
 const icons = [js, react, nodejs, mongodb, html, css, github]
 
 function Landing() {
+
+    const fadeIn = useSpring({
+        to: {
+            opacity: 1,
+            y: 0
+        },
+
+        from: {
+            opacity: 0,
+            y: -50
+        },
+
+        mass: 5
+    })
+
     return (
         <section className="fixed w-full top-0 z-0 dark:text-white dark:bg-gray-800 h-screen flex items-center">
-            <div className="flex flex-row md:flex-row-reverse flex-wrap mx-auto justify-center">
+            <animated.div style={fadeIn} className="flex flex-row md:flex-row-reverse flex-wrap mx-auto justify-center">
                 <div className="max-w-sm px-4">
                     <img className="py-3 rounded-full" src={profilePic}/>
                 </div>
@@ -31,7 +47,7 @@ function Landing() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </animated.div>
         </section>
     );
 }
