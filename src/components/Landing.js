@@ -15,7 +15,10 @@ const icons = [js, react, nodejs, mongodb, html, css, github]
 function Landing() {
     return (
         <section className="dark:bg-gray-800">
-            <div className="dark:text-white flex flex-row flex-wrap mx-auto justify-center">
+            <div className="dark:text-white flex flex-row md:flex-row-reverse flex-wrap mx-auto justify-center">
+                <div className="max-w-md px-4">
+                    <img className="py-3 rounded-full" src={profilePic}/>
+                </div>
                 <div className="max-w-xl px-4 flex items-center">
                     <div>
                         <p className="text-2xl py-3">Looking for full stack web developer talent?</p>
@@ -27,9 +30,6 @@ function Landing() {
                             )}
                         </div>
                     </div>
-                </div>
-                <div className="max-w-md px-4">
-                    <img className="py-3 rounded-full" src={profilePic}/>
                 </div>
             </div>
         </section>
