@@ -1,5 +1,5 @@
 import React from 'react';
-import { useInView, useRef } from 'react-intersection-observer';
+import { useInView } from 'react-intersection-observer';
 import { useSpring, animated } from 'react-spring';
 
 import Prev from '../icons/ResumePrev.png';
