@@ -1,14 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useState } from 'react';
 import { useSpring, useTrail, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 
 function Projects() {
 
     const { ref, inView } = useInView();
-
-    useEffect(() => {
-        console.log(inView)
-    }, [inView])
 
     const pages = [
         'Beet Hub',
@@ -18,7 +14,7 @@ function Projects() {
     ]
 
     const trail = useTrail(pages.length, {
-        opacity: inView ? 0.5 : 0,
+        opacity: inView ? 1 : 0,
         marginLeft: inView ? 0 : 50
     })
 
@@ -29,7 +25,15 @@ function Projects() {
             </div>
             <div ref={ref} className="flex-1 flex flex-col justify-between py-9">
                 {trail.map(({ opacity, marginLeft }, i) => 
-                    <animated.h1 style={{ marginLeft, opacity }} key={pages[i]} className={`text-6xl md:text-8xl font-semibold px-6`}>{pages[i]}</animated.h1>
+                    <animated.h1 
+                        key={pages[i]} 
+                        className={`text-6xl md:text-8xl font-semibold px-6`}
+                        style={{ 
+                            marginLeft, 
+                            opacity
+                        }}>
+                           {pages[i]}
+                        </animated.h1>
                 )}
             </div>
         </section>
