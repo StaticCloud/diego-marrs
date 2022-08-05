@@ -6,7 +6,6 @@ import Projects from '../components/Projects'
 import Resume from '../components/Resume'
 
 function Home() {
-
     const [mode, setMode] = useState('dark')
 
     return (
