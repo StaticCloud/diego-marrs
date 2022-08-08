@@ -15,6 +15,7 @@ function Projects() {
             stack: ['MongoDB', 'Express.js', 'React', 'Node.js', 'GraphQL', 'Apollo Server/Client'],
             image: beethub,
             github: 'https://github.com/heatherviolet/beat-hub',
+            app: 'https://blooming-tundra-89879.herokuapp.com/',
             description: 'A social platform, built on the MERN stack, for sharing and discussing your favorite music albums!'
         },
         {
@@ -22,6 +23,7 @@ function Projects() {
             stack: ['MySQL', 'Handlebars', 'Express.js', 'Bootstrap'],
             image: pantry,
             github: 'https://github.com/zaclark369/Pantry',
+            app: 'https://whispering-reef-71968.herokuapp.com',
             description: 'Pantry is an MVC website that allows you to browse for recipes using ingredients you already have!'
         }, 
         {
@@ -29,12 +31,14 @@ function Projects() {
             stack: ['MySQL', 'Handlebars', 'Express.js'],
             image: techBlog,
             github: 'https://github.com/StaticCloud/My-Tech-Blog',
+            app: 'https://limitless-river-31622.herokuapp.com/',
             description: 'An MVC blogging website for developers. Create an account and post about your exciting upcoming projects!'
         },
         {
             title: 'Password Generator',
             stack: ['HTML', 'CSS', 'JavaScript'],
             image: passwordGen,
+            app: 'https://staticcloud.github.io/Password-Generator/',
             github: 'https://github.com/StaticCloud/Password-Generator',
             description: 'Need a quick, secure password? Look no further! Input a shuffle rate between 1 - 10,000 and generate!'
         }
