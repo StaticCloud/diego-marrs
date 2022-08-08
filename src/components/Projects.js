@@ -7,8 +7,6 @@ import pantry from '../icons/pantry.png';
 import techBlog from '../icons/techblog.png';
 import passwordGen from '../icons/password-gen.png'
 
-import gitHub from '../icons/github.png';
-
 function Projects() {
 
     const pages = [
@@ -16,24 +14,28 @@ function Projects() {
             title: 'Beet Hub',
             stack: ['MongoDB', 'Express.js', 'React', 'Node.js', 'GraphQL', 'Apollo Server/Client'],
             image: beethub,
+            github: 'https://github.com/heatherviolet/beat-hub',
             description: 'A social platform, built on the MERN stack, for sharing and discussing your favorite music albums!'
         },
         {
             title: 'Pantry',
             stack: ['MySQL', 'Handlebars', 'Express.js', 'Bootstrap'],
             image: pantry,
+            github: 'https://github.com/zaclark369/Pantry',
             description: 'Pantry is an MVC website that allows you to browse for recipes using ingredients you already have!'
         }, 
         {
             title: 'My Tech Blog',
             stack: ['MySQL', 'Handlebars', 'Express.js'],
             image: techBlog,
+            github: 'https://github.com/StaticCloud/My-Tech-Blog',
             description: 'An MVC blogging website for developers. Create an account and post about your exciting upcoming projects!'
         },
         {
             title: 'Password Generator',
             stack: ['HTML', 'CSS', 'JavaScript'],
             image: passwordGen,
+            github: 'https://github.com/StaticCloud/Password-Generator',
             description: 'Need a quick, secure password? Look no further! Input a shuffle rate between 1 - 10,000 and generate!'
         }
     ]
