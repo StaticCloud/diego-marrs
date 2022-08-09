@@ -9,7 +9,7 @@ function Home() {
     const [mode, setMode] = useState('dark')
 
     return (
-        <div className={`${mode}`}>
+        <div id="top" className={`${mode}`}>
             <Nav/>
             <Landing/>
             <div className='h-screen'></div>

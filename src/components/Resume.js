@@ -19,7 +19,7 @@ function Resume() {
     })
 
     return (
-        <section className="min-h-screen flex flex-col w-full dark:bg-gray-900 dark:text-white py-20 z-40 relative">
+        <section id="resume" className="min-h-screen flex flex-col w-full dark:bg-gray-900 dark:text-white py-20 z-40 relative">
             <div className="flex items-center">
                 <h1 className="text-3xl md:text-6xl font-semibold inline-block p-4 mx-auto">Resume</h1>
             </div>
