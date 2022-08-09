@@ -15,9 +15,6 @@ function Home() {
             <div className='h-screen'></div>
             <Projects/>
             <Resume/>
-            {/* <button onClick={() => mode == 'dark' ? setMode('') : setMode('dark')}>
-                Toggle Theme
-            </button> */}
         </div>
     );
 }
