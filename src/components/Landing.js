@@ -37,7 +37,7 @@ function Landing() {
                 </div>
                 <div className="max-w-xl px-5 flex items-center">
                     <div>
-                        <p className="text-lg md:text-2xl py-2 md:py-3">Looking for full stack web developer talent?</p>
+                        <p className="text-lg md:text-2xl py-2 md:py-3">Looking for full-stack web developer talent?</p>
                         <h1 className="text-3xl md:text-6xl font-semibold py-2 md:py-3">Hello, I'm Diego Marrs</h1>
                         <p className="text-lg md:text-2xl py-2 md:py-3">I'm a full stack web developer who is proficient in various technologies.</p>
                         <div className="flex flex-row flex-wrap">
