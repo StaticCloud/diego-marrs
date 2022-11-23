@@ -16,7 +16,8 @@ function Projects() {
             image: beethub,
             github: 'https://github.com/heatherviolet/beat-hub',
             app: 'https://blooming-tundra-89879.herokuapp.com/',
-            description: 'A social platform, built on the MERN stack, for sharing and discussing your favorite music albums!'
+            description: 'A social platform, built on the MERN stack, for sharing and discussing your favorite music albums!',
+            isProject: true
         },
         {
             title: 'Pantry',
@@ -24,7 +25,8 @@ function Projects() {
             image: pantry,
             github: 'https://github.com/zaclark369/Pantry',
             app: 'https://whispering-reef-71968.herokuapp.com',
-            description: 'Pantry is an MVC website that allows you to browse for recipes using ingredients you already have!'
+            description: 'Pantry is an MVC website that allows you to browse for recipes using ingredients you already have!',
+            isProject: true
         }, 
         {
             title: 'My Tech Blog',
@@ -32,7 +34,8 @@ function Projects() {
             image: techBlog,
             github: 'https://github.com/StaticCloud/My-Tech-Blog',
             app: 'https://limitless-river-31622.herokuapp.com/',
-            description: 'An MVC blogging website for developers. Create an account and post about your exciting upcoming projects!'
+            description: 'An MVC blogging website for developers. Create an account and post about your exciting upcoming projects!',
+            isProject: true
         },
         {
             title: 'Password Generator',
@@ -40,7 +43,12 @@ function Projects() {
             image: passwordGen,
             app: 'https://staticcloud.github.io/Password-Generator/',
             github: 'https://github.com/StaticCloud/Password-Generator',
-            description: 'Need a quick, secure password? Look no further! Input a shuffle rate between 1 - 10,000 and generate!'
+            description: 'Need a quick, secure password? Look no further! Input a shuffle rate between 1 - 10,000 and generate!',
+            isProject: true
+        },
+        {
+            title: 'More on GitHub...',
+            isProject: false
         }
     ]
 
@@ -50,6 +58,10 @@ function Projects() {
         setPageSizes(pageSizes.map((page, i) => i === index ? pageSizes[index] === 0 ? 20 : 0 : page))
     }
 
+    function openGitHub() {
+        window.open('https://github.com/StaticCloud')
+    }
+
     return (
         <section id="projects" className="min-h-screen flex flex-col w-full dark:bg-gray-900 dark:text-white py-20 z-40 relative">
             <div className="flex items-center">
@@ -57,22 +69,40 @@ function Projects() {
             </div>
             <div className="flex-1 flex flex-col py-9">
                 {pages.map((page, i) => 
-                    <div key={i} className="py-8">
-                        <InView threshold="1">
-                            {({ inView, ref }) => (
-                                <h1 ref={ref} 
-                                    className={`transition-all duration-500
-                                            ${inView ? 'opacity-50 px-6' : 'opacity-0 px-10'} 
-                                            hover:delay-75
-                                            text-6xl md:text-8xl font-semibold hover:opacity-100
-                                            hover:cursor-pointer select-none`}
-                                    onClick={() => updateSize(i)}>
-                                    {page.title}
-                                </h1>
-                            )}
-                        </InView>
-                        <Project size={pageSizes[i]} page={page}></Project>
-                    </div>
+                    page.isProject === true ? (
+                        <div key={i} className="py-8">
+                            <InView threshold="1">
+                                {({ inView, ref }) => (
+                                    <h1 ref={ref} 
+                                        className={`transition-all duration-500
+                                                ${inView ? 'opacity-50 px-6' : 'opacity-0 px-10'} 
+                                                hover:delay-75
+                                                text-6xl md:text-8xl font-semibold hover:opacity-100
+                                                hover:cursor-pointer select-none`}
+                                        onClick={() => updateSize(i)}>
+                                        {page.title}
+                                    </h1>
+                                )}
+                            </InView>
+                            <Project size={pageSizes[i]} page={page}></Project>
+                        </div>
+                    ) : (
+                        <div key={'GitHub'} className="py-8">
+                            <InView threshold="1">
+                                {({ inView, ref }) => (
+                                    <h1 ref={ref} 
+                                        className={`transition-all duration-500
+                                                ${inView ? 'opacity-50 px-6' : 'opacity-0 px-10'} 
+                                                hover:delay-75
+                                                text-6xl md:text-8xl font-semibold hover:opacity-100
+                                                hover:cursor-pointer select-none`}
+                                        onClick={() => openGitHub()}>
+                                        {page.title}
+                                    </h1>
+                                )}
+                            </InView>
+                        </div>
+                    )
                 )}
             </div>
         </section>
