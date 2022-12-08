@@ -23,8 +23,8 @@ function Projects() {
             title: 'Pantry',
             stack: ['MySQL', 'Handlebars', 'Express.js', 'Bootstrap'],
             image: pantry,
-            github: 'https://github.com/zaclark369/Pantry',
-            app: 'https://whispering-reef-71968.herokuapp.com',
+            github: 'https://github.com/StaticCloud/Pantry',
+            app: 'https://pantry-app.herokuapp.com/',
             description: 'Pantry is an MVC website that allows you to browse for recipes using ingredients you already have!',
             isProject: true
         }, 
