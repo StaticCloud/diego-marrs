@@ -1,17 +1,17 @@
 import React from 'react';
 import { useSpring, animated } from 'react-spring';
 
-import html from '../icons/html5.png'
-import css from '../icons/css3.png'
-import js from '../icons/javascript.png'
-import mongodb from '../icons/mongodb.png'
-import nodejs from '../icons/node-js.png'
-import react from '../icons/react.png'
-import github from '../icons/github.png'
+import html from '../icons/svgs/html5.svg'
+import css from '../icons/svgs/css3-alt.svg'
+import js from '../icons/svgs/square-js.svg'
+import python from '../icons/svgs/python.svg'
+import nodejs from '../icons/svgs/node.svg'
+import react from '../icons/svgs/react.svg'
+import github from '../icons/svgs/github.svg'
 
 import profilePic from '../icons/pfp.jpg'
 
-const icons = [js, react, nodejs, mongodb, html, css, github]
+const icons = [js, html, css, python, react, nodejs, github]
 
 function Landing() {
 
