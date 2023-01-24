@@ -6,6 +6,8 @@ import email from '../icons/svgs/envelope-solid.svg';
 import linkedin from '../icons/svgs/linkedin-in.svg';
 import github from '../icons/svgs/github.svg';
 
+import coffee from '../icons/coffee.jpg'
+
 function Contact() {
 
     const contactDetails = [
@@ -29,7 +31,10 @@ function Contact() {
                 <h1 className="text-3xl md:text-6xl font-semibold inline-block p-4 mx-auto">Contact</h1>
             </div>
             <animated.div style={fade} ref={ref} className="flex-1 flex flex-wrap md:flex-row-reverse items-center h-full justify-center">
-                <div className="max-w-3xl px-5 flex items-center">
+                <div className="max-w-xs md:max-w-sm px-4">
+                    <img className="py-3 rounded-full" src={coffee}/>
+                </div>
+                <div className="max-w-xl px-5 flex items-center">
                     <div>
                         <h1 className="text-3xl md:text-6xl font-semibold py-2 md:py-3">Let's get in touch!</h1>
                         <p className="text-lg md:text-2xl py-2 md:py-3 text-gray-400">Whether you're looking to add new talent to your team, or just wish to make an introduction and stay connected, I'd be happy to chat!</p>
