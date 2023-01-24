@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll'
 
+import resume from '../icons/DIEGO MARRS.pdf'
+
 function Navbar() {
 
     const [color, setColor] = useState('')
@@ -28,7 +30,11 @@ function Navbar() {
                         <Link to="projects" smooth="true">projects</Link>
                     </li>
                     <li className="hover:cursor-pointer transition-all px-4 text-2xl text-gray-400 hover:text-white">
-                        <Link to="resume" smooth="true">resume</Link>
+                        <Link to="contact" smooth="true">contact</Link>
+                    </li>
+                    <li className="hover:cursor-pointer transition-all px-4 text-2xl text-gray-400 hover:text-white">
+                        <a href={resume} target="_blank">resume</a>
+                        {/* <Link to="resume" smooth="true">resume</Link> */}
                     </li>
                 </ul>
             </div>

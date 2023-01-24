@@ -4,6 +4,7 @@ import Nav from '../components/Navbar'
 import Landing from '../components/Landing'
 import Projects from '../components/Projects'
 import Resume from '../components/Resume'
+import Contact from '../components/Contact'
 
 function Home() {
     const [mode, setMode] = useState('dark')
@@ -14,7 +15,8 @@ function Home() {
             <Landing/>
             <div className='h-screen'></div>
             <Projects/>
-            <Resume/>
+            <Contact/>
+            {/* <Resume/> */}
         </div>
     );
 }
