@@ -39,8 +39,8 @@ function Contact() {
                         <h1 className="text-3xl md:text-6xl font-semibold py-2 md:py-3">Let's get in touch!</h1>
                         <p className="text-lg md:text-2xl py-2 md:py-3 text-gray-400">Whether you're looking to add new talent to your team, or just wish to make an introduction and stay connected, I'd be happy to chat!</p>
                         <div className="flex flex-col">
-                            {contactDetails.map((contact) => 
-                                <div className="flex">
+                            {contactDetails.map((contact, i) => 
+                                <div key={i} className="flex">
                                     <img className="p-1 md:p-2 w-10 md:w-12" src={contact[0]}></img>
                                     {contact[1] != "diegomarrs@proton.me" ? (
                                         <a href={contact[1]} target="_blank" className="text-lg md:text-2xl py-3 md:py-3 px-2 hover:cursor-pointer transition-all text-gray-400 hover:text-white">{contact[1].split('//')[1]}</a>

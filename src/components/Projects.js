@@ -16,7 +16,7 @@ function Projects() {
             image: beethub,
             github: 'https://github.com/heatherviolet/beat-hub',
             app: 'https://blooming-tundra-89879.herokuapp.com/',
-            description: 'A social platform, built on the MERN stack, for sharing and discussing your favorite music albums!',
+            description: 'A social platform for music enthusiasts to share, review, and discover new music albums.',
             isProject: true
         },
         {
@@ -25,7 +25,7 @@ function Projects() {
             image: pantry,
             github: 'https://github.com/StaticCloud/Pantry',
             app: 'https://pantry-app.herokuapp.com/',
-            description: 'Pantry is an MVC website that allows you to browse for recipes using ingredients you already have!',
+            description: 'A recipe discovery app that allows users to discover food and beverage recipes using ingredients they already own.',
             isProject: true
         }, 
         {
@@ -34,7 +34,7 @@ function Projects() {
             image: techBlog,
             github: 'https://github.com/StaticCloud/My-Tech-Blog',
             app: 'https://limitless-river-31622.herokuapp.com/',
-            description: 'An MVC blogging website for developers. Create an account and post about your exciting upcoming projects!',
+            description: 'A community-driven content site where users can add content and comment on other posts.',
             isProject: true
         },
         {
@@ -45,66 +45,23 @@ function Projects() {
             github: 'https://github.com/StaticCloud/Password-Generator',
             description: 'Need a quick, secure password? Look no further! Input a shuffle rate between 1 - 10,000 and generate!',
             isProject: true
-        },
-        {
-            title: 'More on GitHub...',
-            isProject: false
         }
     ]
 
-    const [pageSizes, setPageSizes] = useState(pages.map(() => 0));
-
-    function updateSize(index) {
-        setPageSizes(pageSizes.map((page, i) => i === index ? pageSizes[index] === 0 ? 20 : 0 : page))
-    }
-
-    function openGitHub() {
-        window.open('https://github.com/StaticCloud')
-    }
-
     return (
-        <section id="projects" className="min-h-screen flex flex-col w-full dark:bg-gray-900 dark:text-white py-20 z-40 relative">
+        <section id="projects" className="flex flex-col w-full dark:bg-gray-900 dark:text-white py-20 z-40 relative">
             <div className="flex items-center">
                 <h1 className="text-3xl md:text-6xl font-semibold inline-block p-4 mx-auto">Projects</h1>
             </div>
-            <div className="flex-1 flex flex-col py-9">
                 {pages.map((page, i) => 
-                    page.isProject === true ? (
-                        <div key={i} className="py-8">
-                            <InView threshold="1">
-                                {({ inView, ref }) => (
-                                    <h1 ref={ref} 
-                                        className={`transition-all duration-500
-                                                ${inView ? 'opacity-50 px-6' : 'opacity-0 px-10'} 
-                                                hover:delay-75
-                                                text-6xl md:text-8xl font-semibold hover:opacity-100
-                                                hover:cursor-pointer select-none`}
-                                        onClick={() => updateSize(i)}>
-                                        {page.title}
-                                    </h1>
-                                )}
-                            </InView>
-                            <Project size={pageSizes[i]} page={page}></Project>
-                        </div>
-                    ) : (
-                        <div key={'GitHub'} className="py-8">
-                            <InView threshold="1">
-                                {({ inView, ref }) => (
-                                    <h1 ref={ref} 
-                                        className={`transition-all duration-500
-                                                ${inView ? 'opacity-50 px-6' : 'opacity-0 px-10'} 
-                                                hover:delay-75
-                                                text-6xl md:text-8xl font-semibold hover:opacity-100
-                                                hover:cursor-pointer select-none`}
-                                        onClick={() => openGitHub()}>
-                                        {page.title}
-                                    </h1>
-                                )}
-                            </InView>
-                        </div>
-                    )
+                    <InView key={i} threshold="0.5">
+                        {({ inView, ref }) => (
+                            <div ref={ref} className={`transition-all duration-500 ${inView ? 'opacity-100' : 'opacity-0'}`}>
+                                <Project page={page}></Project>
+                            </div>
+                        )}
+                    </InView>
                 )}
-            </div>
         </section>
     );
 }

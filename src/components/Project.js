@@ -1,35 +1,29 @@
 import React from 'react';
 
-function Project({ size, page }) {
+import house from '../icons/svgs/house-solid.svg'
+import github from '../icons/svgs/github.svg'
+
+function Project({ page }) {
     return (
-        <section>
-            <div className={`transition-all flex flex-wrap md:flex-row-reverse items-center justify-center 
-                            py-${size} 
-                            ${size === 0 ? 'opacity-0' : 'opacity-100'}
-                            ${size === 0 ? 'h-0' : ''}`}>
-                <div className={`max-w-2xl px-6 select-none`}>
-                    <img src={page.image}
-                         className="md:m-4 rounded-3xl"></img>
-                </div>
-                <div className={`max-w-2xl px-6 select-none`}>
-                    <h1 className="text-3xl md:text-6xl font-semibold py-3">{page.title}</h1>
-                    <div className="flex flex-wrap">
-                        {page.stack.map((technology, i) => 
-                            <p key={i} className="pr-1 text-gray-400 text-sm md:text-lg">
-                                {technology} 
-                                {i < page.stack.length - 1 ? ' |' : ''}
-                            </p>
-                        )}
+        <section className="flex flex-row flex-wrap-reverse w-full dark:bg-gray-900 dark:text-white relative justify-center items-center my-36">
+            <div className="max-w-xl px-5 flex items-center">
+                <div>
+                    <h1 className="text-3xl md:text-6xl font-semibold py-2 md:py-3">{page.title}</h1>
+                    <p className="text-lg md:text-2xl py-2 md:py-3 text-gray-400">{page.description}</p>
+                    <div className="flex flex-col">
+                        <div className="flex">
+                            <img className="p-1 md:p-2 w-10 md:w-12" src={house}></img>
+                            <a href={page.app} target="_blank" className="text-lg md:text-2xl py-3 md:py-3 px-2 hover:cursor-pointer transition-all text-gray-400 hover:text-white">{page.app.split('//')[1]}</a>
+                        </div>
+                        <div className="flex">
+                            <img className="p-1 md:p-2 w-10 md:w-12" src={github}></img>
+                            <a href={page.github} target="_blank" className="text-lg md:text-2xl py-3 md:py-3 px-2 hover:cursor-pointer transition-all text-gray-400 hover:text-white">{page.github.split('//')[1]}</a>
+                        </div>
                     </div>
-                    <p className="text-lg md:text-2xl py-3">{page.description}</p>
-                    <a className="transition-all my-1 mr-3 text-lg md:text-2xl text-gray-400 hover:text-white" href={page.app} target="_blank">
-                        Deployed App
-                    </a>
-                    <p className="inline-flex text-2xl"> | </p>
-                    <a className="transition-all my-1 ml-3 text-lg md:text-2xl text-gray-400 hover:text-white" href={page.github} target="_blank">
-                        GitHub
-                    </a>
                 </div>
+            </div>
+            <div className="max-w-2xl md:max-w-md px-4">
+                <img className="py-3" src={page.image}/>
             </div>
         </section>
     );
