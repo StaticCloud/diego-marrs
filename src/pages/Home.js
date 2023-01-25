@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import Nav from '../components/Navbar'
 import Landing from '../components/Landing'
 import Projects from '../components/Projects'
-import Resume from '../components/Resume'
 import Contact from '../components/Contact'
 
 function Home() {
