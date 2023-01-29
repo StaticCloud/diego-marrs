@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/diego-marrs/static/css/main.0e3f7360.css",
-    "main.js": "/diego-marrs/static/js/main.7cb43af4.js",
+    "main.css": "/diego-marrs/static/css/main.c278afab.css",
+    "main.js": "/diego-marrs/static/js/main.4e1eac34.js",
     "static/js/787.5f5a6142.chunk.js": "/diego-marrs/static/js/787.5f5a6142.chunk.js",
     "static/media/pantry.png": "/diego-marrs/static/media/pantry.ebcda975442e0743c0b2.png",
     "static/media/beethub.png": "/diego-marrs/static/media/beethub.35b59cf6c17cbcfbd48f.png",
     "static/media/coffee.jpg": "/diego-marrs/static/media/coffee.c122ca456f50d8d64c6e.jpg",
     "static/media/pfp.jpg": "/diego-marrs/static/media/pfp.f1ab2340c0e57ad9e43a.jpg",
-    "static/media/ResumePrev.png": "/diego-marrs/static/media/ResumePrev.c0e3b6e070fd66aabecf.png",
     "static/media/techblog.png": "/diego-marrs/static/media/techblog.35fc07a1eb29a9221c85.png",
-    "static/media/DIEGO MARRS.pdf": "/diego-marrs/static/media/DIEGO MARRS.c5d0c48bb56f43d2db0b.pdf",
+    "static/media/DIEGO MARRS.pdf": "/diego-marrs/static/media/DIEGO MARRS.a7b4f65c506a03d616a1.pdf",
     "static/media/password-gen.png": "/diego-marrs/static/media/password-gen.4fe1552e9dc91077dfad.png",
     "static/media/react.svg": "/diego-marrs/static/media/react.9f93568cf1a083a4f63e97864bca69c9.svg",
     "static/media/github.svg": "/diego-marrs/static/media/github.8cc4f2c886cf3a4a819e73d2c86eddc0.svg",
@@ -23,12 +22,13 @@
     "static/media/envelope-solid.svg": "/diego-marrs/static/media/envelope-solid.1ac3789434db8b568ba8dd59c8813dec.svg",
     "static/media/css3-alt.svg": "/diego-marrs/static/media/css3-alt.7f2e6319c2f7924f678a5cae2e531b4b.svg",
     "static/media/html5.svg": "/diego-marrs/static/media/html5.b4bbd4f21947ed9a448a4bed8d58a405.svg",
-    "main.0e3f7360.css.map": "/diego-marrs/static/css/main.0e3f7360.css.map",
-    "main.7cb43af4.js.map": "/diego-marrs/static/js/main.7cb43af4.js.map",
+    "static/media/angle-down-solid.svg": "/diego-marrs/static/media/angle-down-solid.9b38a6e093ebb5d18fffe887f3d1517e.svg",
+    "main.c278afab.css.map": "/diego-marrs/static/css/main.c278afab.css.map",
+    "main.4e1eac34.js.map": "/diego-marrs/static/js/main.4e1eac34.js.map",
     "787.5f5a6142.chunk.js.map": "/diego-marrs/static/js/787.5f5a6142.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e3f7360.css",
-    "static/js/main.7cb43af4.js"
+    "static/css/main.c278afab.css",
+    "static/js/main.4e1eac34.js"
   ]
 }
