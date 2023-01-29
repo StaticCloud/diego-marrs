@@ -8,6 +8,9 @@ import python from '../icons/svgs/python.svg'
 import nodejs from '../icons/svgs/node.svg'
 import react from '../icons/svgs/react.svg'
 import git from '../icons/svgs/git-alt.svg'
+import down from '../icons/svgs/angle-down-solid.svg'
+
+import { Link } from 'react-scroll'
 
 const icons = [js, nodejs, git, html, css, python, react]
 
@@ -38,6 +41,11 @@ function Landing() {
                             {icons.map((icon, i) => 
                                 <img className="p-1 md:p-2 w-12 md:w-16" key={i} src={icon}></img>
                             )}
+                        </div>
+                        <div className="flex relative">
+                            <Link to="about" smooth="true" className="hover:cursor-pointer animate-bounce absolute left-0 right-0 top-14 mx-auto w-16">
+                                <img src={down} className="p-4 md:p-4 bg-gray-900 rounded-full"></img>
+                            </Link>
                         </div>
                     </div>
                 </div>
