@@ -24,10 +24,17 @@ function About() {
                 <div className="max-w-xs md:max-w-sm px-4">
                     <img className="py-3 rounded-full" src={profilePic}/>
                 </div>
-                <div className="max-w-xl px-5 flex items-center">
+                <div className="max-w-3xl px-6 flex items-center">
                     <div>
-                        <h1 className="text-3xl md:text-6xl font-semibold py-2 md:py-3">Let's get in touch!</h1>
-                        <p className="text-lg md:text-2xl py-2 md:py-3 text-gray-400">Whether you're looking to add new talent to your team, or just wish to make an introduction and stay connected, I'd be happy to chat!</p>
+                        <p className="text-lg py-2 md:py-3 text-gray-400">
+                            <span className="font-bold text-white">Hello, my name is Diego Marrs, I'm a full stack web developer.</span> I'm proficient in both front-end and back-end development and my specialty is the MERN stack.
+                            <br></br>
+                            <br></br>
+                            I have an associate's degree in computer science and a background in food and beverage services. As someone who wanted hands-on experience with software development, joining a web development boot camp was the next logical step after obtaining my undergraduate degree.
+                            <br></br>
+                            <br></br>
+                            I attended an intensive 24-week full stack web development boot camp through University of Oregon. Over the course of the program, I developed in over 30+ GitHub repositories, including multiple solo and group projects. Even after graduating the boot camp, I never stopped learning. I'm continuously learning new technologies through building innovative and exciting projects. Feel free to check out a few of my projects below, don't forget to give my GitHub page a look too!
+                        </p>
                     </div>
                 </div>
             </animated.div>
