@@ -7,11 +7,12 @@ import profilePic from '../icons/pfp.jpg'
 function About() {
 
     const [ref, inView] = useInView({
-        threshold: 0.7
+        threshold: 0.2
     });
 
     const fade = useSpring({
         opacity: inView ? 1 : 0,
+        delay: 200,
         y: inView ? 0 : 50
     })
 
