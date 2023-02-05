@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { InView } from 'react-intersection-observer';
 import Project from './Project';
 
@@ -6,6 +6,7 @@ import beethub from '../icons/beethub.png';
 import pantry from '../icons/pantry.png';
 import techBlog from '../icons/techblog.png';
 import passwordGen from '../icons/password-gen.png'
+import weatherDash from '../icons/weather-dash.png'
 
 function Projects() {
 
@@ -35,6 +36,15 @@ function Projects() {
             github: 'https://github.com/StaticCloud/My-Tech-Blog',
             app: 'https://limitless-river-31622.herokuapp.com/',
             description: 'A community-driven content site where users can add content and comment on other posts.',
+            isProject: true
+        },
+        {
+            title: 'Weather Dashboard',
+            stack: ['Svelte', 'JavaScript', 'CSS'],
+            image: weatherDash,
+            github: 'https://github.com/StaticCloud/Weather-Dashboard',
+            app: 'https://staticcloud.github.io/Weather-Dashboard/',
+            description: 'A simple weather dashboard developed in Svelte. Displays five-day forecast including UVI, wind speed, temperature, and humidity.',
             isProject: true
         },
         {
