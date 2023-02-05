@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/diego-marrs/static/css/main.c278afab.css",
-    "main.js": "/diego-marrs/static/js/main.20495869.js",
+    "main.css": "/diego-marrs/static/css/main.9ba71fcd.css",
+    "main.js": "/diego-marrs/static/js/main.5ec8d937.js",
     "static/js/787.5f5a6142.chunk.js": "/diego-marrs/static/js/787.5f5a6142.chunk.js",
     "static/media/pantry.png": "/diego-marrs/static/media/pantry.8bc611bca1fd5883fd15.png",
     "static/media/beethub.png": "/diego-marrs/static/media/beethub.35b59cf6c17cbcfbd48f.png",
     "static/media/coffee.jpg": "/diego-marrs/static/media/coffee.c122ca456f50d8d64c6e.jpg",
     "static/media/pfp.jpg": "/diego-marrs/static/media/pfp.f1ab2340c0e57ad9e43a.jpg",
+    "static/media/weather-dash.png": "/diego-marrs/static/media/weather-dash.838dd5d818e2a6d6f293.png",
     "static/media/techblog.png": "/diego-marrs/static/media/techblog.35fc07a1eb29a9221c85.png",
     "static/media/DIEGO MARRS.pdf": "/diego-marrs/static/media/DIEGO MARRS.a7b4f65c506a03d616a1.pdf",
     "static/media/password-gen.png": "/diego-marrs/static/media/password-gen.4fe1552e9dc91077dfad.png",
@@ -23,12 +24,12 @@
     "static/media/css3-alt.svg": "/diego-marrs/static/media/css3-alt.7f2e6319c2f7924f678a5cae2e531b4b.svg",
     "static/media/html5.svg": "/diego-marrs/static/media/html5.b4bbd4f21947ed9a448a4bed8d58a405.svg",
     "static/media/angle-down-solid.svg": "/diego-marrs/static/media/angle-down-solid.9b38a6e093ebb5d18fffe887f3d1517e.svg",
-    "main.c278afab.css.map": "/diego-marrs/static/css/main.c278afab.css.map",
-    "main.20495869.js.map": "/diego-marrs/static/js/main.20495869.js.map",
+    "main.9ba71fcd.css.map": "/diego-marrs/static/css/main.9ba71fcd.css.map",
+    "main.5ec8d937.js.map": "/diego-marrs/static/js/main.5ec8d937.js.map",
     "787.5f5a6142.chunk.js.map": "/diego-marrs/static/js/787.5f5a6142.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c278afab.css",
-    "static/js/main.20495869.js"
+    "static/css/main.9ba71fcd.css",
+    "static/js/main.5ec8d937.js"
   ]
 }
