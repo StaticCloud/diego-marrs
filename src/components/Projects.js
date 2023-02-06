@@ -39,11 +39,11 @@ function Projects() {
             isProject: true
         },
         {
-            title: 'Weather Dashboard',
+            title: 'Weather Pal',
             stack: ['Svelte', 'JavaScript', 'CSS'],
             image: weatherDash,
-            github: 'https://github.com/StaticCloud/Weather-Dashboard',
-            app: 'https://staticcloud.github.io/Weather-Dashboard/',
+            github: 'https://github.com/StaticCloud/Weather-Pal',
+            app: 'https://staticcloud.github.io/Weather-Pal/',
             description: 'A simple weather dashboard developed in Svelte. Displays five-day forecast including UVI, wind speed, temperature, and humidity.',
             isProject: true
         },
