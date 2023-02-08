@@ -12,10 +12,10 @@ import coffee from '../icons/coffee.jpg'
 function Contact() {
 
     const contactDetails = [
-        [calendy, "https://calendly.com/diegomarrs/30min"],
-        [email, "diegomarrs@proton.me"],
-        [linkedin, "https://www.linkedin.com/in/diego-marrs/"],
-        [github, "https://github.com/StaticCloud"],
+        [calendy, "https://calendly.com/diegomarrs/30min", "Calendy"],
+        [email, "diegomarrs@proton.me", "Email"],
+        [linkedin, "https://www.linkedin.com/in/diego-marrs/", "LinkedIn"],
+        [github, "https://github.com/StaticCloud", "GitHub"],
     ];
 
     const [ref, inView] = useInView({
@@ -40,14 +40,14 @@ function Contact() {
                     <div>
                         <h1 className="text-3xl md:text-6xl font-semibold py-2 md:py-3">Let's get in touch!</h1>
                         <p className="text-lg py-2 md:py-3 text-gray-400">Whether you're looking to add new talent to your team, or just wish to make an introduction and stay connected, I'd be happy to chat!</p>
-                        <div className="flex flex-col">
+                        <div className="flex flex-wrap w-9/12">
                             {contactDetails.map((contact, i) => 
-                                <div key={i} className="flex">
-                                    <img className="p-1 md:p-2 w-10 md:w-12" src={contact[0]}></img>
+                                <div key={i} className="flex basis-2/4">
+                                    <img className="p-1 md:p-2 w-10" src={contact[0]}></img>
                                     {contact[1] != "diegomarrs@proton.me" ? (
-                                        <a href={contact[1]} target="_blank" className="text-lg py-3 md:py-3 px-2 hover:cursor-pointer transition-all text-gray-400 hover:text-white">{contact[1].split('//')[1]}</a>
+                                        <a href={contact[1]} target="_blank" className="text-lg py-3 md:py-3 px-2 hover:cursor-pointer transition-all text-gray-400 hover:text-white">{contact[2]}</a>
                                     ) : (
-                                        <a href={`mailto:${contact[1]}`} target="_blank" className="text-lg py-3 md:py-3 px-2 hover:cursor-pointer transition-all text-gray-400 hover:text-white">{contact[1]}</a>
+                                        <a href={`mailto:${contact[1]}`} target="_blank" className="text-lg py-3 md:py-3 px-2 hover:cursor-pointer transition-all text-gray-400 hover:text-white">{contact[2]}</a>
                                     )}
                                     
                                 </div>
