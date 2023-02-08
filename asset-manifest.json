@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/diego-marrs/static/css/main.67242f80.css",
-    "main.js": "/diego-marrs/static/js/main.43aaa7b1.js",
+    "main.css": "/diego-marrs/static/css/main.9aa0bbb9.css",
+    "main.js": "/diego-marrs/static/js/main.be29120e.js",
     "static/js/787.5f5a6142.chunk.js": "/diego-marrs/static/js/787.5f5a6142.chunk.js",
     "static/media/pantry.png": "/diego-marrs/static/media/pantry.8bc611bca1fd5883fd15.png",
     "static/media/beethub.png": "/diego-marrs/static/media/beethub.35b59cf6c17cbcfbd48f.png",
@@ -25,12 +25,12 @@
     "static/media/css3-alt.svg": "/diego-marrs/static/media/css3-alt.7f2e6319c2f7924f678a5cae2e531b4b.svg",
     "static/media/html5.svg": "/diego-marrs/static/media/html5.b4bbd4f21947ed9a448a4bed8d58a405.svg",
     "static/media/angle-down-solid.svg": "/diego-marrs/static/media/angle-down-solid.9b38a6e093ebb5d18fffe887f3d1517e.svg",
-    "main.67242f80.css.map": "/diego-marrs/static/css/main.67242f80.css.map",
-    "main.43aaa7b1.js.map": "/diego-marrs/static/js/main.43aaa7b1.js.map",
+    "main.9aa0bbb9.css.map": "/diego-marrs/static/css/main.9aa0bbb9.css.map",
+    "main.be29120e.js.map": "/diego-marrs/static/js/main.be29120e.js.map",
     "787.5f5a6142.chunk.js.map": "/diego-marrs/static/js/787.5f5a6142.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67242f80.css",
-    "static/js/main.43aaa7b1.js"
+    "static/css/main.9aa0bbb9.css",
+    "static/js/main.be29120e.js"
   ]
 }
