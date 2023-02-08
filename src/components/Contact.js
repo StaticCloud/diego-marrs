@@ -40,7 +40,7 @@ function Contact() {
                     <div>
                         <h1 className="text-3xl md:text-6xl font-semibold py-2 md:py-3">Let's get in touch!</h1>
                         <p className="text-lg py-2 md:py-3 text-gray-400">Whether you're looking to add new talent to your team, or just wish to make an introduction and stay connected, I'd be happy to chat!</p>
-                        <div className="flex flex-wrap w-9/12">
+                        <div className="flex flex-wrap max-w-xs">
                             {contactDetails.map((contact, i) => 
                                 <div key={i} className="flex basis-2/4">
                                     <img className="p-1 md:p-2 w-10" src={contact[0]}></img>
