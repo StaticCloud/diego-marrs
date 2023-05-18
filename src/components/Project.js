@@ -5,7 +5,7 @@ import github from '../icons/svgs/github.svg'
 
 function Project({ page }) {
     return (
-        <section className="flex flex-row flex-wrap-reverse w-full dark:bg-gray-900 dark:text-white relative justify-center items-center my-36">
+        <section className="flex flex-row flex-wrap-reverse w-full dark:bg-gray-900 dark:text-white relative justify-center items-center my-12 md:my-36">
             <div className="max-w-xl px-5 flex items-center">
                 <div>
                     <h1 className="text-3xl md:text-5xl font-semibold py-2 md:py-3">{page.title}</h1>

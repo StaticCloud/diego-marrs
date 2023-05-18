@@ -34,7 +34,7 @@ function About() {
                             I have an associate's degree in computer science and a background in food and beverage services. As someone who wanted hands-on experience with software development, joining a web development boot camp was the next logical step after obtaining my undergraduate degree.
                             <br></br>
                             <br></br>
-                            I attended an intensive 24-week full stack web development boot camp through University of Oregon. Over the course of the program, I developed in over 30+ GitHub repositories, including multiple solo and group projects. Even after graduating the boot camp, I never stopped learning. I'm continuously learning new technologies through building innovative and exciting projects. Feel free to check out a few of my projects below, don't forget to give my GitHub page a look too!
+                            I attended an intensive 24-week full stack web development boot camp through University of Oregon. Over the course of the program, I developed in over 30+ GitHub repositories, including multiple solo and group projects. I'm continuously learning new technologies through building innovative and exciting projects. Feel free to check out a few of my projects below, don't forget to give my GitHub page a look too!
                         </p>
                     </div>
                 </div>
