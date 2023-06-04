@@ -39,13 +39,13 @@ function Landing() {
                         <h1 className="text-6xl md:text-7xl font-semibold p-2 md:py-3">Diego Marrs</h1>
                         <div className="flex flex-row flex-wrap justify-center">
                             {icons.map((icon, i) => 
-                                <img className="p-1 md:p-2 w-10 md:w-12" key={i} src={icon}></img>
+                                <img className="p-1 md:p-2 w-10 md:w-12" key={i} src={icon} alt={icons} />
                             )}
                         </div>
                         <p className="text-lg md:text-2xl p-2 md:py-3 text-gray-400 max-w-xl mx-auto">Welcome to my portfolio!</p>
                         <div className="flex relative">
                             <Link to="about" smooth="true" className="hover:cursor-pointer animate-bounce absolute left-0 right-0 top-14 mx-auto w-16">
-                                <img src={down} className="p-4 md:p-4 bg-gray-900 rounded-full"></img>
+                                <img src={down} className="p-4 md:p-4 bg-gray-900 rounded-full" alt="down"></img>
                             </Link>
                         </div>
                     </div>

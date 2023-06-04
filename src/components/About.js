@@ -23,7 +23,7 @@ function About() {
             </div>
             <animated.div style={fade} ref={ref} className="flex-1 flex flex-wrap md:flex-row items-center h-full justify-center">
                 <div className="max-w-xs md:max-w-sm px-4">
-                    <img className="py-3 rounded-full" src={profilePic}/>
+                    <img className="py-3 rounded-full" src={profilePic} alt="diego-marrs"/>
                 </div>
                 <div className="max-w-3xl px-6 flex items-center">
                     <div>

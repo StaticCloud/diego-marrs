@@ -34,7 +34,7 @@ function Contact() {
             </div>
             <animated.div style={fade} ref={ref} className="flex-1 flex flex-wrap md:flex-row-reverse items-center h-full justify-center">
                 <div className="max-w-xs md:max-w-sm px-4">
-                    <img className="py-3 rounded-full" src={coffee}/>
+                    <img className="py-3 rounded-full" src={coffee} alt="coffee"/>
                 </div>
                 <div className="max-w-xl px-5 flex items-center">
                     <div>
@@ -43,7 +43,7 @@ function Contact() {
                         <div className="flex flex-wrap max-w-xs">
                             {contactDetails.map((contact, i) => 
                                 <div key={i} className="flex basis-2/4">
-                                    <img className="p-1 md:p-2 w-10" src={contact[0]}></img>
+                                    <img className="p-1 md:p-2 w-10" src={contact[0]} alt={contact[0]}></img>
                                     {contact[1] != "diegomarrs@proton.me" ? (
                                         <a href={contact[1]} target="_blank" className="text-lg py-3 md:py-3 px-2 hover:cursor-pointer transition-all text-gray-400 hover:text-white">{contact[2]}</a>
                                     ) : (
