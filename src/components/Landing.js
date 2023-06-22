@@ -44,7 +44,7 @@ function Landing() {
                         </div>
                         <p className="text-lg md:text-2xl p-2 md:py-3 text-gray-400 max-w-xl mx-auto">Welcome to my portfolio!</p>
                         <div className="flex relative">
-                            <Link to="about" smooth="true" className="hover:cursor-pointer animate-bounce absolute left-0 right-0 top-14 mx-auto w-16">
+                            <Link to="projects" smooth="true" className="hover:cursor-pointer animate-bounce absolute left-0 right-0 top-14 mx-auto w-16">
                                 <img src={down} className="p-4 md:p-4 bg-gray-900 rounded-full" alt="down"></img>
                             </Link>
                         </div>

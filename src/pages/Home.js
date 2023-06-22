@@ -14,8 +14,8 @@ function Home() {
             <Nav/>
             <Landing/>
             <div className='h-screen'></div>
-            <About/>
             <Projects/>
+            <About/>
             <Contact/>
             {/* <Resume/> */}
         </div>

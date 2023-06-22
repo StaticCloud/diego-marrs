@@ -27,10 +27,10 @@ function Navbar() {
                         <Link to="top" smooth="true">home</Link>
                     </li>
                     <li className="hover:cursor-pointer transition-all px-4 text-2xl text-gray-400 hover:text-white">
-                        <Link to="about" smooth="true">about</Link>
+                        <Link to="projects" smooth="true">projects</Link>
                     </li>
                     <li className="hover:cursor-pointer transition-all px-4 text-2xl text-gray-400 hover:text-white">
-                        <Link to="projects" smooth="true">projects</Link>
+                        <Link to="about" smooth="true">about</Link>
                     </li>
                     <li className="hover:cursor-pointer transition-all px-4 text-2xl text-gray-400 hover:text-white">
                         <Link to="contact" smooth="true">contact</Link>
