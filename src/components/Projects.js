@@ -4,7 +4,7 @@ import Project from './Project';
 
 import beethub from '../icons/beethub.png';
 import pantry from '../icons/pantry.png';
-import techBlog from '../icons/techblog.png';
+import codeCascade from '../icons/code-cascade.png'
 import passwordGen from '../icons/password-gen.png'
 import weatherDash from '../icons/weather-dash.png'
 
@@ -30,12 +30,12 @@ function Projects() {
             isProject: true
         }, 
         {
-            title: 'My Tech Blog',
-            stack: ['MySQL', 'Handlebars', 'Express.js'],
-            image: techBlog,
-            github: 'https://github.com/StaticCloud/My-Tech-Blog',
-            app: 'https://limitless-river-31622.herokuapp.com/',
-            description: 'A community-driven content site where users can add content and comment on other posts.',
+            title: 'Code Cascade',
+            stack: ['Next', 'React', 'Sanity.io'],
+            image: codeCascade,
+            github: 'https://github.com/StaticCloud/Code-Cascade',
+            app: 'https://code-cascade-bexh.vercel.app/',
+            description: 'A web development blog that is tailored towards developers of all skill levels.',
             isProject: true
         },
         {

@@ -23,7 +23,7 @@ function Project({ page }) {
                 </div>
             </div>
             <div className="max-w-2xl md:max-w-md px-4">
-                <img className="py-3" src={page.image} alt={page.image}/>
+                <img className="my-3 rounded-2xl" src={page.image} alt={page.image}/>
             </div>
         </section>
     );

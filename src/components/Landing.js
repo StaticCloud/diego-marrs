@@ -12,7 +12,7 @@ import down from '../icons/svgs/angle-down-solid.svg'
 
 import { Link } from 'react-scroll'
 
-const icons = [js, nodejs, git, html, css, python, react]
+const icons = [js, nodejs, git, html, css, react]
 
 function Landing() {
 
