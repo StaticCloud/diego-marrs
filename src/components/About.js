@@ -28,13 +28,13 @@ function About() {
                 <div className="max-w-3xl px-6 flex items-center">
                     <div>
                         <p className="text-lg py-2 md:py-3 text-gray-400">
-                            <span className="font-bold text-white">Hello, my name is Diego Marrs, I'm a full stack web developer.</span> I'm proficient in both front-end and back-end development and my specialty is the MERN stack.
+                            <span className="font-bold text-white">Hello, my name is Diego Marrs. I'm a software engineer.</span>
                             <br></br>
                             <br></br>
-                            I have an associate's degree in computer science and a background in food and beverage services. As someone who wanted hands-on experience with software development, joining a web development boot camp was the next logical step after obtaining my undergraduate degree.
+                            I am an early career engineer who is currently studying Software Engineering at Western Governors University, where I continue to build upon my foundational knowledge of software development and diversify my skillset. 
                             <br></br>
                             <br></br>
-                            I attended an intensive 24-week full stack web development boot camp through University of Oregon. Over the course of the program, I developed in over 30+ GitHub repositories, including multiple solo and group projects. I'm continuously learning new technologies through building innovative and exciting projects. Feel free to check out a few of my projects below, don't forget to give my GitHub page a look too!
+                            I currently work as an instructional specialist at edX where I teach aspiring developers programming fundamentals, RESTful API design and implementation, designing and developing full-stack applications, and more.
                         </p>
                     </div>
                 </div>
@@ -44,10 +44,3 @@ function About() {
 }
 
 export default About;
-
-{/* <p className="text-md md:text-lg py-2 md:py-3 text-gray-400">
-                            I'm a full stack web developer from Portland, OR. I'm proficient in various, market-driven technologies, including the MERN stack.
-                            <br/><br/>
-                            I took a 24-week intensive web development boot camp through University of Oregon in 2021. 
-                            <br/><br/>
-                        </p> */}

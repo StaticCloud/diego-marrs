@@ -2,8 +2,7 @@ import React from 'react';
 import { InView } from 'react-intersection-observer';
 import Project from './Project';
 
-import beethub from '../icons/beethub.png';
-import pantry from '../icons/pantry.png';
+import vinylshelf from '../icons/vinylshelf.png';
 import codeCascade from '../icons/code-cascade.png'
 import passwordGen from '../icons/password-gen.png'
 import weatherDash from '../icons/weather-dash.png'
@@ -12,23 +11,14 @@ function Projects() {
 
     const pages = [
         {
-            title: 'Beet Hub',
-            stack: ['MongoDB', 'Express.js', 'React', 'Node.js', 'GraphQL', 'Apollo Server/Client'],
-            image: beethub,
-            github: 'https://github.com/heatherviolet/beat-hub',
-            app: 'https://blooming-tundra-89879.herokuapp.com/',
-            description: 'A social platform for music enthusiasts to share, review, and discover new music albums.',
+            title: 'Vinyl Shelf',
+            stack: ['PostgreSQL', 'Express.js', 'React', 'Node.js', 'Prisma'],
+            image: vinylshelf,
+            github: 'https://github.com/StaticCloud/Vinyl-Shelf',
+            app: 'https://vinyl-shelf.up.railway.app/',
+            description: 'A platform for vinyl collectors to log and share their collections.',
             isProject: true
         },
-        {
-            title: 'Pantry',
-            stack: ['MySQL', 'Handlebars', 'Express.js', 'Bootstrap'],
-            image: pantry,
-            github: 'https://github.com/StaticCloud/Pantry',
-            app: 'https://pantry-app.herokuapp.com/',
-            description: 'A recipe discovery app that allows users to discover food and beverage recipes using ingredients they already own.',
-            isProject: true
-        }, 
         {
             title: 'Code Cascade',
             stack: ['Next', 'React', 'Sanity.io'],
@@ -44,7 +34,7 @@ function Projects() {
             image: weatherDash,
             github: 'https://github.com/StaticCloud/Weather-Pal',
             app: 'https://staticcloud.github.io/Weather-Pal/',
-            description: 'A simple weather dashboard developed in Svelte. Displays five-day forecast including UVI, wind speed, temperature, and humidity.',
+            description: 'A simple weather dashboard that developed using Svelte.',
             isProject: true
         },
         {
@@ -53,7 +43,7 @@ function Projects() {
             image: passwordGen,
             app: 'https://staticcloud.github.io/Password-Generator/',
             github: 'https://github.com/StaticCloud/Password-Generator',
-            description: 'Need a quick, secure password? Look no further! Input a shuffle rate between 1 - 10,000 and generate!',
+            description: 'One of my earliest projects that I still use. A custom password generator that provides a quick, secure password.',
             isProject: true
         }
     ]
