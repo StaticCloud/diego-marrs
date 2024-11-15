@@ -1,11 +1,15 @@
 import './App.css'
 import Section from './components/Section'
+import Landing from './components/Landing'
 
 function App() {
   return (
     <>
       <Section>
-        <p>Hi</p>
+        <Landing/>
+      </Section>
+      <Section>
+        <p>Projects Section</p>
       </Section>
     </>
   )
