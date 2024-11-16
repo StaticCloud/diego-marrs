@@ -3,6 +3,7 @@ import Section from './components/Section'
 import Landing from './components/Landing'
 
 function App() {
+
   return (
     <>
       <Section>
