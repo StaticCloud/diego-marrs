@@ -1,6 +1,7 @@
 import './App.css'
 import Section from './components/Section'
 import Landing from './components/Landing'
+import Projects from './components/Projects'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
         <Landing/>
       </Section>
       <Section>
-        <p>Projects Section</p>
+        <Projects/>
       </Section>
     </>
   )

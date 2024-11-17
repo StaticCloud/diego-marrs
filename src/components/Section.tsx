@@ -15,6 +15,7 @@ const StyledSection = styled.section<{ $background?: string }>`
 
 const StyledInner = styled.div`
     margin: 0 auto;
+    padding: 2rem;
     height: 100%;
 
     @media only screen and (min-width: 910px) {

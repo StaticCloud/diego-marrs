@@ -3,7 +3,7 @@ import project from "../utils/projects-interface";
 const projects: project[] = [
     {
         title: "Vinyl Shelf",
-        description: "A platform for vinyl collectors to log and share their collections",
+        description: "A platform for vinyl collectors to log and share their collections.",
         github: "https://github.com/StaticCloud/Vinyl-Shelf",
         deployedPage: "https://vinyl-shelf.up.railway.app/"
     },

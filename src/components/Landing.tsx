@@ -10,9 +10,7 @@ const LandingWrapper = styled.div`
     }
 `;
 
-const LandingContent = styled.div`
-
-`;
+const LandingContent = styled.div``;
 
 const Icons = styled.div`
     margin-top: 7px;
