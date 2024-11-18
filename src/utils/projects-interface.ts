@@ -3,4 +3,5 @@ export default interface project {
     description: string
     github: string | null
     deployedPage: string | null
+    preview: string
 }
