@@ -8,13 +8,15 @@ const LandingWrapper = styled.div`
     h1 {
         font-weight: bold;
         font-size: 2.5rem;
+        border-bottom: 4px ${props => props.theme.secondary} solid;
+        display: inline-block;
     }
 `;
 
 const LandingContent = styled.div``;
 
 const Icons = styled.div`
-    margin-top: 7px;
+    margin-top: 1rem;
 
     i[class^="devicon-"] {
         color: white;

@@ -15,14 +15,48 @@ const SingleProjectWrapper = styled.div`
     }
 `;
 
-const SingleProjectDetails = styled.div``;
+const SingleProjectDetails = styled.div`
+    a, a:visited {
+        color: ${props => props.theme.secondary};
+    }
+
+    i[class^="devicon-"] {
+        font-size: 1.6rem;
+        margin-right: 7px;
+    }
+
+    h2 {
+        margin-right: .5rem;
+    }
+
+    h3 {
+        display: inline-block;
+        border-bottom: 2px ${props => props.theme.secondary} solid;
+    }
+
+    span {
+        display: flex;
+    }
+`;
 
 function Project({ project }: { project: project }) {
     return (
         <SingleProjectWrapper>
             <SingleProjectDetails>
-                <h2>{project.title}</h2>
+                <span>
+                    <h2>{project.title}</h2>
+                    {project.github && (
+                        <a href={project.github}>
+                            <i className="devicon-github-original"></i>
+                        </a>
+                    )}
+                </span>
                 <p>{project.description}</p>
+                {project.deployedPage && (
+                    <a href="">
+                        <h3>Visit Project</h3>
+                    </a>
+                )}
             </SingleProjectDetails>
         </SingleProjectWrapper>
     );
@@ -32,8 +66,8 @@ export default function Projects() {
     return (
         <ProjectsWrapper>
             <Heading>Projects</Heading>
-            {projects.map((project, i) => 
-                <Project project={project} key={i}/>
+            {projects.map((project, i) =>
+                <Project project={project} key={i} />
             )}
         </ProjectsWrapper>
     );

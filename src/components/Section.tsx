@@ -4,7 +4,7 @@ import styled, { css } from "styled-components";
 const StyledSection = styled.section<{ $background?: string }>`
     width: 100svw;
     height: 100svh;
-    background-color: #202D3E;
+    background-color: ${props => props.theme.primary};
 
     ${(props) => 
         props.$background && css`
