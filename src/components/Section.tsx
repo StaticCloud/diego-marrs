@@ -4,11 +4,13 @@ import styled, { css } from "styled-components";
 const StyledSection = styled.section<{ $background?: string }>`
     width: 100svw;
     height: 100svh;
-    background-color: #24344A;
+    background-color: #202D3E;
 
     ${(props) => 
         props.$background && css`
-            background-image: ${props.$background};
+            background-image: url(${props.$background});
+            background-position: center;
+            background-size: cover;
         `
     }
 `;

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap');
 
 :root {
     --default: "Urbanist", serif;
@@ -8,6 +8,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #202D3E;
 }
 
 p,

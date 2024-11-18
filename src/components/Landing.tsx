@@ -6,6 +6,7 @@ const LandingWrapper = styled.div`
     align-items: center;
 
     h1 {
+        font-weight: bold;
         font-size: 2.5rem;
     }
 `;
@@ -30,7 +31,7 @@ export default function Landing() {
     return (
         <LandingWrapper>
             <LandingContent>
-                <p>Hello, my name is...</p>
+                <p>Hello, my name is</p>
                 <h1>Diego Marrs</h1>
                 <Icons>
                     <i className="devicon-typescript-plain"></i>
