@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const LandingWrapper = styled.div`
-    height: 100%;
+    height: calc(100svh - 4rem);
     display: flex;
     align-items: center;
 

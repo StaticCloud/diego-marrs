@@ -3,7 +3,6 @@ import styled, { css } from "styled-components";
 
 const StyledSection = styled.section<{ $background?: string }>`
     width: 100svw;
-    height: 100svh;
     background-color: ${props => props.theme.primary};
 
     ${(props) => 
@@ -18,7 +17,6 @@ const StyledSection = styled.section<{ $background?: string }>`
 const StyledInner = styled.div`
     margin: 0 auto;
     padding: 2rem;
-    height: 100%;
 
     @media only screen and (min-width: 910px) {
         width: 910px;
