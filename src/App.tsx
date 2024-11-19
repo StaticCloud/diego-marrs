@@ -19,10 +19,10 @@ function App() {
         <Landing/>
       </Section>
       <Section>
-        <Projects/>
+        <About/>
       </Section>
       <Section>
-        <About/>
+        <Projects/>
       </Section>
       <Section>
         <Contact/>

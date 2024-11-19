@@ -1,9 +1,12 @@
 import styled from "styled-components";
+import StyledArrow from "./Styled-Arrow";
+import { Link } from "react-scroll";
 
 const LandingWrapper = styled.div`
     height: calc(100svh - 4rem);
     display: flex;
     align-items: center;
+    position: relative;
 
     h1 {
         font-weight: bold;
@@ -11,9 +14,31 @@ const LandingWrapper = styled.div`
         border-bottom: 4px ${props => props.theme.secondary} solid;
         display: inline-block;
     }
+
+    a {
+        right: 50%;
+        bottom: 40px;
+        position: absolute;
+    }
 `;
 
-const LandingContent = styled.div``;
+const LandingContent = styled.div`
+    animation-name: load;
+    animation-duration: 1s;
+
+    @keyframes load {
+        from {
+            opacity: 0;
+            margin-bottom: 3rem;        
+        }
+
+        to {
+            opacity: 1;
+            margin-bottom: 0;
+        }
+    
+    }
+`;
 
 const Icons = styled.div`
     margin-top: 1rem;
@@ -46,6 +71,9 @@ export default function Landing() {
                     <i className="devicon-docker-plain"></i>
                 </Icons>
             </LandingContent>
+            <Link to="content-start" smooth="true" offset={-32}>
+                <StyledArrow/>
+            </Link>
         </LandingWrapper>
     )
 }
