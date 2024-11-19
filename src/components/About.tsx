@@ -6,14 +6,12 @@ const AboutWrapper = styled.div``;
 
 const AboutContent = styled.div`
     display: flex;
+    flex-wrap: wrap;
     padding: 6rem 0;
     align-items: center;
 `;
 
 const AboutText = styled.div`
-    margin-left: 2rem;
-    flex: 2 0;
-
     h2 {
         color: ${props => props.theme.secondary};
     }
@@ -21,14 +19,25 @@ const AboutText = styled.div`
     span {
         font-weight: bold;
     }
+
+    @media screen and (min-width: 690px) {
+        flex: 2 0;
+        margin-left: 2rem;
+    }
 `;
 
 const Avatar = styled.div`
     aspect-ratio: 1;
-    flex: 1 0;;
+    width: 100%;
     background-image: url(${avatar});
     background-size: contain;
     border-radius: 50%;
+    margin-bottom: 2rem;
+
+    @media screen and (min-width: 690px) {
+        flex: 1 0;
+        margin-bottom: 0;
+    }
 `;
 
 export default function About() {
