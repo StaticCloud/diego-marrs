@@ -6,7 +6,7 @@ const AboutWrapper = styled.div``;
 
 const AboutContent = styled.div`
     display: flex;
-    padding: 4rem 0;
+    padding: 6rem 0;
     align-items: center;
 `;
 
@@ -17,6 +17,10 @@ const AboutText = styled.div`
     h2 {
         color: ${props => props.theme.secondary};
     }
+
+    span {
+        font-weight: bold;
+    }
 `;
 
 const Avatar = styled.div`
@@ -25,7 +29,6 @@ const Avatar = styled.div`
     background-image: url(${avatar});
     background-size: contain;
     border-radius: 50%;
-    border: 4px ${props => props.theme.secondary} solid;
 `;
 
 export default function About() {
@@ -35,9 +38,13 @@ export default function About() {
             <AboutContent>
                 <Avatar/>
                 <AboutText>
-                    <h2>My name is Diego Marrs, I am a software engineer.</h2>
-                    <br/>
-                    <p>I am a early-career software engineer with a passion for solving business problems and bringing ambitious ideas to life. I've had exposure to various technologies working as an instruction specialist for edX's software development bootcamps, and I continue to learn and grow outside of work by building projects that challenge and encourage me to further understand unfamiliar yet powerful technologies.</p>
+                    <h2>Hello, my name is Diego Marrs.</h2>
+                    <br />
+                    <p><span>I am a early-career software engineer with a passion for solving business problems and bringing ambitious ideas to life.</span></p>
+                    <br />
+                    <p>I graduated with a Bachelor of Science in Software Engineering in 2024, and I currently work as a software development instructional specialist at EdX. My responsibilities include teaching students various software development technologies and concepts, troubleshooting and debugging full-stack applications, and reviewing code with best practices for code structure and clarity in mind.</p>
+                    <br />
+                    <p>I have experience working with TypeScript, Express, React, PostgreSQL, Prisma, Java, Spring Boot, Docker, and various AWS services. I am driven by a desire to solve complex business problems by leveraging my existing skillset, and providing value to teams.</p>
                 </AboutText>
             </AboutContent>
         </AboutWrapper>

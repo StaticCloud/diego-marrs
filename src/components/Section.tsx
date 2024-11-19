@@ -18,8 +18,8 @@ const StyledInner = styled.div`
     margin: 0 auto;
     padding: 2rem;
 
-    @media only screen and (min-width: 910px) {
-        width: 910px;
+    @media only screen and (min-width: 960px) {
+        width: 960px;
     }
 `;
 
