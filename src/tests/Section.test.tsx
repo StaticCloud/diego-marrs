@@ -1,4 +1,3 @@
-import pretty from 'pretty';
 import { render } from '@testing-library/react';
 import Section from '../components/Section';
 import 'jest-styled-components';

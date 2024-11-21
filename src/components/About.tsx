@@ -42,7 +42,7 @@ const Avatar = styled.div`
 
 export default function About() {
     return (
-        <AboutWrapper name="content-start">
+        <AboutWrapper id="content-start">
             <Heading>About</Heading>
             <AboutContent>
                 <Avatar/>
