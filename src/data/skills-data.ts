@@ -1,6 +1,6 @@
-import skills from "../utils/skills-interface";
+import skill from "../utils/skills-interface";
 
-const languages: skills[] = [
+const languages: skill[] = [
     {
         skill: "HTML",
         icon: "html5-plain",
@@ -33,7 +33,7 @@ const languages: skills[] = [
     }
 ]
 
-const librariesFrameworks: skills[] = [
+const librariesFrameworks: skill[] = [
     {
         skill: "Express.js",
         icon: "express-original",
@@ -56,7 +56,7 @@ const librariesFrameworks: skills[] = [
     }
 ]
 
-const tools: skills[] = [
+const tools: skill[] = [
     {
         skill: "AWS",
         icon: "amazonwebservices-plain-wordmark",

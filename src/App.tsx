@@ -6,6 +6,7 @@ import Landing from './components/Landing'
 import Projects from './components/Projects'
 import About from './components/About';
 import Contact from './components/Contact';
+import Skills from './components/Skills';
 
 function App() {
 
@@ -20,6 +21,9 @@ function App() {
       </Section>
       <Section>
         <About/>
+      </Section>
+      <Section>
+        <Skills/>
       </Section>
       <Section>
         <Projects/>

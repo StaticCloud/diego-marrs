@@ -1,4 +1,4 @@
-export default interface skills {
+export default interface skill {
     skill: string
     icon: string
     description: string
