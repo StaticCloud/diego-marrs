@@ -14,7 +14,7 @@ const languages: skill[] = [
     {
         skill: "JavaScript",
         icon: "javascript-plain",
-        description: "A programming language primarily used to add structure to web pages."
+        description: "A programming language primarily used to add functionality to web pages."
     },
     {
         skill: "TypeScript",

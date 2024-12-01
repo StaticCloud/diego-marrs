@@ -14,9 +14,6 @@ const SkillHeading = styled.div`
     i[class^="devicon-"] {
         font-size: 1.6rem;
         margin-right: 7px;
-    }
-
-    h3, i[class^="devicon-"] {
         color: ${props => props.theme.secondary}
     }
 `;
@@ -28,7 +25,7 @@ export default function Skill({ skill }: { skill: skill }) {
                 <i className={`devicon-${skill.icon}`}></i>
                 <h3>{skill.skill}</h3>
             </SkillHeading> 
-            <b><p>{skill.description}</p></b>
+            <p>{skill.description}</p>
         </SkillWrapper>
     );
 }

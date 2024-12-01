@@ -8,10 +8,12 @@ const SkillsWrapper = styled.div``;
 const Category = styled.div`
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 2rem;
 `;
 
 const CategoryHeading = styled.h2`
     margin: 1.5rem 0;
+    display: inline-block;
     color: ${props => props.theme.secondary};
 `;
 
@@ -19,7 +21,8 @@ export default function Skills() {
     return (
         <SkillsWrapper>
             <Heading>Skills</Heading>
-            <CategoryHeading>Languages</CategoryHeading>
+            <div></div>
+            <CategoryHeading>Programming Languages</CategoryHeading>
             <Category>
                 {languages.map((language, i) =>
                     <Skill key={i} skill={language} />
