@@ -16,7 +16,8 @@ const LandingWrapper = styled.div`
     }
 
     a {
-        right: 50%;
+        right: calc(50% - 20px);
+        width: 40px;
         bottom: 40px;
         position: absolute;
     }

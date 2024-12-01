@@ -35,7 +35,7 @@ const SingleProjectDetails = styled.div`
         display: flex;
     }
 
-    @media screen and (min-width: 690px) {
+    @media screen and (min-width: 460px) {
         flex: 2 0;
         margin-left: 2rem;
     }
@@ -51,7 +51,7 @@ const ProjectPreview = styled.div<{ $image: string }>`
     border-bottom: 2px ${props => props.theme.secondary} solid;
     margin-bottom: 2rem;
 
-    @media screen and (min-width: 690px) {
+    @media screen and (min-width: 460px) {
         flex: 1 0;
         margin-bottom: 0;
     }

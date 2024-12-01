@@ -9,12 +9,12 @@ const languages: skill[] = [
     {
         skill: "CSS",
         icon: "css3-plain",
-        description: "A style sheet language that provides styling to web pages."
+        description: "A style sheet language used in web development to incorporate styling into web pages."
     },
     {
         skill: "JavaScript",
         icon: "javascript-plain",
-        description: "A programming language primarily used to add functionality to web pages."
+        description: "A web-based programming language primarily used to add functionality to web pages."
     },
     {
         skill: "TypeScript",
@@ -65,7 +65,7 @@ const tools: skill[] = [
     {
         skill: "Docker",
         icon: "docker-plain",
-        description: "A containerization tool that enables developers to package their software ensuring consistency across environments."
+        description: "A containerization tool that enables developers to package their software, ensuring consistency across environments."
     },
     {
         skill: "Node.js",

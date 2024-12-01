@@ -2,8 +2,12 @@ import styled from "styled-components";
 import skill from "../utils/skills-interface";
 
 const SkillWrapper = styled.div`
-    flex: 1 0 50%;
+    flex: 1 0 100%;
     padding: 0 1.5rem 1.5rem 0;
+
+    @media screen and (min-width: 460px) {
+        flex: 1 0 50%;
+    }
 `;
 
 const SkillHeading = styled.div`
