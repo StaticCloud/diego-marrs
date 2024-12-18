@@ -66,7 +66,6 @@ export default function Landing() {
                     <i className="devicon-express-original"></i>
                     <i className="devicon-postgresql-plain"></i>
                     <i className="devicon-prisma-original"></i>
-                    <i className="devicon-spring-original"></i>
                     <i className="devicon-amazonwebservices-plain-wordmark"></i>
                     <i className="devicon-docker-plain"></i>
                 </Icons>

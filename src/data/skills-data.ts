@@ -48,11 +48,6 @@ const librariesFrameworks: skill[] = [
         skill: "Prisma",
         icon: "prisma-original",
         description: "An object-relational mapper that allows for programmatic interfacing with databases, including defining tables and queries."
-    },
-    {
-        skill: "Spring Boot",
-        icon: "spring-original",
-        description: "A Java framework used to build Spring-based, production-grade applications."
     }
 ]
 
