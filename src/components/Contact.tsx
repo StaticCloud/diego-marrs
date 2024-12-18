@@ -22,7 +22,7 @@ const ContactText = styled.div`
         font-weight: bold;
     }
 
-    @media screen and (min-width: 690px) {
+    @media screen and (min-width: 660px) {
         flex: 2 0;
         margin-left: 2rem;
     }
@@ -30,13 +30,14 @@ const ContactText = styled.div`
 
 const ContactImage = styled.div`
     aspect-ratio: 1;
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
     background-image: url(${contactImage});
     background-size: contain;
     border-radius: 50%;
     margin-bottom: 2rem;
 
-    @media screen and (min-width: 690px) {
+    @media screen and (min-width: 660px) {
         flex: 1 0;
         margin-bottom: 0;
     }

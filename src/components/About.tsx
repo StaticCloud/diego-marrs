@@ -20,7 +20,7 @@ const AboutText = styled.div`
         font-weight: bold;
     }
 
-    @media screen and (min-width: 690px) {
+    @media screen and (min-width: 660px) {
         flex: 2 0;
         margin-left: 2rem;
     }
@@ -28,13 +28,14 @@ const AboutText = styled.div`
 
 const Avatar = styled.div`
     aspect-ratio: 1;
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
     background-image: url(${avatar});
     background-size: contain;
     border-radius: 50%;
     margin-bottom: 2rem;
 
-    @media screen and (min-width: 690px) {
+    @media screen and (min-width: 660px) {
         flex: 1 0;
         margin-bottom: 0;
     }
@@ -53,7 +54,7 @@ export default function About() {
                     <br />
                     <p>I graduated with a Bachelor of Science in Software Engineering in 2024, and I currently work as a software development instructional specialist at EdX. My responsibilities include teaching students various software development technologies and concepts, troubleshooting and debugging full-stack applications, and reviewing code with best practices for code structure and clarity in mind.</p>
                     <br />
-                    <p>I have experience working with TypeScript, Express, React, PostgreSQL, Prisma, Java, Spring Boot, Docker, and various AWS services. I am driven by a desire to solve complex business problems by leveraging my existing skillset, and providing value to teams.</p>
+                    <p>I have experience working with TypeScript, Express, React, PostgreSQL, Prisma, Java, Spring Boot, Docker, and various AWS services. I am driven by a desire to solve complex business problems by leveraging my existing skillset, and building valuable products.</p>
                 </AboutText>
             </AboutContent>
         </AboutWrapper>

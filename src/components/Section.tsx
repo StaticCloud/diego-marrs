@@ -22,8 +22,9 @@ const StyledInner = styled.div`
     margin: 0 auto;
     padding: 2rem;
 
-    @media only screen and (min-width: 960px) {
-        width: 960px;
+    @media only screen and (min-width: 660px) {
+        min-width: 660px;
+        max-width: 960px;
     }
 `;
 
