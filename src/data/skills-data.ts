@@ -2,6 +2,16 @@ import skill from "../utils/skills-interface";
 
 const languages: skill[] = [
     {
+        skill: "C#",
+        icon: "csharp-plain",
+        description: "A versatile, strongly-typed, object-oriented programming language developed by Microsoft. "
+    },
+    {
+        skill: "TypeScript",
+        icon: "typescript-plain",
+        description: "A superset of JavaScript that provides static typing to the JavaScript language."
+    },
+    {
         skill: "HTML",
         icon: "html5-plain",
         description: "A markup language that provides content structure to web pages."
@@ -17,16 +27,6 @@ const languages: skill[] = [
         description: "A web-based programming language primarily used to add functionality to web pages."
     },
     {
-        skill: "TypeScript",
-        icon: "typescript-plain",
-        description: "A superset of JavaScript that provides static typing to the JavaScript language."
-    },
-    {
-        skill: "Java",
-        icon: "java-plain",
-        description: "An object-oriented, high-level, platform-agnostic programming language."
-    },
-    {
         skill: "PostgreSQL",
         icon: "postgresql-plain",
         description: "An ACID-compliant, relational database management system that serves as an extension of the SQL language."
@@ -34,6 +34,11 @@ const languages: skill[] = [
 ]
 
 const librariesFrameworks: skill[] = [
+    {
+        skill: "ASP.NET",
+        icon: "dot-net-plain",
+        description: "A feature-rich, robust, and highly scalable web development framework that exists as part of Microsoft's .NET ecosystem."
+    },
     {
         skill: "Express.js",
         icon: "express-original",
