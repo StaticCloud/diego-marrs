@@ -62,11 +62,11 @@ export default function Landing() {
                 <p>Hello, my name is</p>
                 <h1>Diego Marrs</h1>
                 <Icons>
+                    <i className="devicon-csharp-plain"></i>
+                    <i className="devicon-dot-net-plain"></i>
                     <i className="devicon-typescript-plain"></i>
-                    <i className="devicon-java-plain"></i>
                     <i className="devicon-express-original"></i>
                     <i className="devicon-postgresql-plain"></i>
-                    <i className="devicon-prisma-original"></i>
                     <i className="devicon-amazonwebservices-plain-wordmark"></i>
                     <i className="devicon-docker-plain"></i>
                 </Icons>
