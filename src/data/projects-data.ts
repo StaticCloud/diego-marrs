@@ -13,11 +13,11 @@ const projects: project[] = [
         preview: vinylShelf
     },
     {
-        title: "Brain Boost",
-        description: "A educational platform where students and educators can create flash card sets. Currently in development.",
-        github: null,
-        deployedPage: null,
-        preview: brainBoost
+        title: "Password Generator",
+        description: "A custom password generator that provides a quick, secure password on the fly. This is a very early-career project that I still frequently use.",
+        github: "https://github.com/StaticCloud/Password-Generator",
+        deployedPage: "https://staticcloud.github.io/Password-Generator/",
+        preview: passwordGenerator
     },
     {
         title: "Code Cascade",
@@ -25,13 +25,6 @@ const projects: project[] = [
         github: "https://github.com/StaticCloud/Code-Cascade",
         deployedPage: "https://code-cascade-bexh.vercel.app/",
         preview: codeCascade
-    },
-    {
-        title: "Password Generator",
-        description: "A custom password generator that provides a quick, secure password on the fly. This is a very early-career project that I still frequently use.",
-        github: "https://github.com/StaticCloud/Password-Generator",
-        deployedPage: "https://staticcloud.github.io/Password-Generator/",
-        preview: passwordGenerator
     }
 ]
 

@@ -42,7 +42,7 @@ const librariesFrameworks: skill[] = [
     {
         skill: "Express.js",
         icon: "express-original",
-        description: "A back-end web application framework that enables developers to build RESTful APIs with JavaScript or TypeScript."
+        description: "A back-end web application framework for building RESTful APIs with JavaScript or TypeScript."
     },
     {
         skill: "React",
@@ -65,7 +65,7 @@ const tools: skill[] = [
     {
         skill: "Docker",
         icon: "docker-plain",
-        description: "A containerization tool that enables developers to package their software, ensuring consistency across environments."
+        description: "A tool that allows for software containerization, ensuring consistency across different computing environments."
     },
     {
         skill: "Node.js",
