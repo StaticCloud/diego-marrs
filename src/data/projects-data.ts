@@ -1,8 +1,7 @@
 import project from "../utils/projects-interface";
 import vinylShelf from "../assets/images/vinyl-shelf.png";
-import brainBoost from "../assets/images/brain-boost.png";
+import cargo from "../assets/images/cargo.png";
 import codeCascade from "../assets/images/code-cascade.png";
-import passwordGenerator from "../assets/images/password-generator.png";
 
 const projects: project[] = [
     {
@@ -13,11 +12,11 @@ const projects: project[] = [
         preview: vinylShelf
     },
     {
-        title: "Password Generator",
-        description: "A custom password generator that provides a quick, secure password on the fly. This is a very early-career project that I still frequently use.",
-        github: "https://github.com/StaticCloud/Password-Generator",
-        deployedPage: "https://staticcloud.github.io/Password-Generator/",
-        preview: passwordGenerator
+        title: "Cargo",
+        description: "A CLI menu-based Docker image and container manager.",
+        github: "https://github.com/StaticCloud/Cargo",
+        deployedPage: null,
+        preview: cargo
     },
     {
         title: "Code Cascade",
