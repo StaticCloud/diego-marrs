@@ -1,7 +1,7 @@
 import project from "../utils/projects-interface";
 import vinylShelf from "../assets/images/vinyl-shelf.png";
 import cargo from "../assets/images/cargo.png";
-import codeCascade from "../assets/images/code-cascade.png";
+import steamBannerAPI from "../assets/images/steam-banner-api.png"
 
 const projects: project[] = [
     {
@@ -12,19 +12,19 @@ const projects: project[] = [
         preview: vinylShelf
     },
     {
+        title: "Steam Banner API",
+        description: "An enchanced Steam game banner query and filtering API.",
+        github: "https://github.com/StaticCloud/steam-banner-api",
+        deployedPage: null,
+        preview: steamBannerAPI 
+    },
+    {
         title: "Cargo",
         description: "A CLI menu-based Docker image and container manager.",
         github: "https://github.com/StaticCloud/Cargo",
         deployedPage: null,
         preview: cargo
-    },
-    {
-        title: "Code Cascade",
-        description: "A blog site that covers foundational software engineering topics on different technologies.",
-        github: "https://github.com/StaticCloud/Code-Cascade",
-        deployedPage: "https://code-cascade-bexh.vercel.app/",
-        preview: codeCascade
-    }
+    } 
 ]
 
 export default projects;

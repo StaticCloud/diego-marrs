@@ -2,9 +2,9 @@ import skill from "../utils/skills-interface";
 
 const languages: skill[] = [
     {
-        skill: "C#",
-        icon: "csharp-plain",
-        description: "A versatile, strongly-typed, object-oriented programming language developed by Microsoft. "
+        skill: "Python",
+        icon: "python-plain",
+        description: "A powerful, multi-purpose programming language that is used across different domains of software development."
     },
     {
         skill: "TypeScript",
@@ -35,9 +35,9 @@ const languages: skill[] = [
 
 const librariesFrameworks: skill[] = [
     {
-        skill: "ASP.NET",
-        icon: "dot-net-plain",
-        description: "A feature-rich, robust, and highly scalable web development framework that exists as part of Microsoft's .NET ecosystem."
+        skill: "FastAPI",
+        icon: "fastapi-plain",
+        description: "A powerful, feature-complete, lightweight Python framework used for developing web APIs."
     },
     {
         skill: "Express.js",

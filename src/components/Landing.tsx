@@ -62,8 +62,8 @@ export default function Landing() {
                 <p>Hello, my name is</p>
                 <h1>Diego Marrs</h1>
                 <Icons>
-                    <i className="devicon-csharp-plain"></i>
-                    <i className="devicon-dot-net-plain"></i>
+                    <i className="devicon-python-plain"></i>
+                    <i className="devicon-fastapi-plain"></i>
                     <i className="devicon-typescript-plain"></i>
                     <i className="devicon-express-original"></i>
                     <i className="devicon-postgresql-plain"></i>
